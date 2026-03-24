@@ -1,7 +1,9 @@
 Bidirectional LSTM Project
+
 This project implements a Bidirectional Long Short-Term Memory (BiLSTM) model for sequence data analysis.
 
 Overview
+
 The repository contains a Jupyter Notebook demonstrating how to build, train, and evaluate a BiLSTM model. It walks through data preprocessing, model creation, and performance evaluation.
 
 Contents
@@ -23,5 +25,6 @@ Requirements
 * Matplotlib 
 
 License
+
 This project is provided for academic use. See the license file for details.
 
