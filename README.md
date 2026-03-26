@@ -15,7 +15,7 @@ data preprocessing, model training, and evaluation — achieving 83.6% test accu
 
 ## How to Use
 1. Clone this repository
-   git clone https://github.com/SharranyanW/Bidirectional-LSTM-24180169
+   git clone https://github.com/Sharranwijey15/Bidirectional-LSTM-24180169
 
 2. Install required libraries
    pip install -r requirements.txt
