@@ -1,30 +1,34 @@
-Bidirectional LSTM Project
+# Bidirectional LSTM — Sentiment Analysis of iPhone Reviews
 
-This project implements a Bidirectional Long Short-Term Memory (BiLSTM) model for sequence data analysis.
+This project implements a Bidirectional Long Short-Term Memory (BiLSTM) 
+model to classify Amazon iPhone reviews as Positive, Neutral, or Negative.
 
-Overview
+## Overview
+The notebook covers the full pipeline: theory (SimpleRNN → LSTM → BiLSTM), 
+data preprocessing, model training, and evaluation — achieving 83.6% test accuracy.
 
-The repository contains a Jupyter Notebook demonstrating how to build, train, and evaluate a BiLSTM model. It walks through data preprocessing, model creation, and performance evaluation.
+## Contents
+- `Bidirectional LSTM 24180169.ipynb` – main notebook
+- `Bidirectional LSTM 24180169.pdf` – tutorial document
+- `data/iphone.csv` – Amazon iPhone review dataset
+- `requirements.txt` – pinned library versions for reproducibility
 
-Contents
-* Bidirectional LSTM 24180169.ipynb – main notebook
-* Bidirectional LSTM 24180169.pdf
-* Tutorial and implementation steps 
-* Supporting code and outputs
-  
-How to Use
-1. Clone this repository 
-2. Install the required libraries 
-3. Open the notebook and run all cells 
+## How to Use
+1. Clone this repository
+   git clone https://github.com/SharranyanW/Bidirectional-LSTM-24180169
 
-Requirements
-* Python
-* NumPy 
-* Pandas 
-* TensorFlow / Keras 
-* Matplotlib 
+2. Install required libraries
+   pip install -r requirements.txt
 
-License
+3. Open the notebook
+   jupyter notebook "Bidirectional LSTM 24180169.ipynb"
 
-This project is provided for academic use. See the license file for details.
+4. Run all cells from top to bottom
 
+## Requirements
+- Python 3.10 or 3.11 (recommended)
+- TensorFlow 2.15 does not support Python 3.12
+- All library versions are pinned in requirements.txt
+
+## License
+See the LICENSE file for details on permitted use.
