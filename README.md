@@ -34,4 +34,3 @@ jupyter notebook "Bidirectional LSTM 24180169.ipynb"
 ## License
 
 See the LICENSE file for details on permitted use.
-=======
